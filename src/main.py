@@ -7,6 +7,7 @@ def main():
 
     graph = Graph()
     passenger_queue = PassengerQueue()
+    radius_limit = 3
 
     while True:
         print("\n[0]: Exit"
@@ -72,7 +73,7 @@ def main():
                     print(f"\nThe Edge {src} <--> {dest} added.")
 
                 else:
-                    if check_radius_bfs(graph, 3):
+                    if check_radius_bfs(graph, radius_limit):
                         graph.add_edge(src, dest, cost, capacity, start_time, end_time)
 
                         print(f"\nThe Edge {src} <--> {dest} added.")
@@ -110,7 +111,8 @@ def main():
                     continue
 
                 shortest_path = graph.shortest_path(src, dest, s_time, e_time,False, True)
-                # shortest_path is a tuple with 2 element, the first element is edges in SP and the second is Vertices
+                # shortest_path is a tuple with 2 element,
+                # the first element is edges in Shortest Path and the second is Vertices
                 # Example: ([(0, 1), (0, 2)], [1, 0, 2])
                 if shortest_path:
                     cmd = input("Wanna Reserve The Route? [y/n]: ")

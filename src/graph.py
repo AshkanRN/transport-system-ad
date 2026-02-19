@@ -257,8 +257,10 @@ class Graph:
         if dest is not None:
             if distance[dest] == float('inf'):
                 if not tsp_mode:
-                    string = "No Alternative Path" if consider_capacity else "No Path"
-                    print(f"\n{string} from {src} to {dest}")
+                    string = ("No Alternative Path"
+                              if consider_capacity
+                              else "No Path")
+                    print(f"\n{string} from {src} to {dest} at {passenger_s_time},{passenger_e_time} time")
                 return float('inf') if tsp_mode else None
 
             if tsp_mode:

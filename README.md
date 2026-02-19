@@ -6,6 +6,12 @@ It was developed as a course project for **Algorithm Design**.
 
 The system models universities and routes as a **graph** and provides intelligent route planning, booking,
 and trip optimization.
+---
+
+<img src="img/gr-ad.gif">
+
+
+
 
 ---
 

@@ -199,7 +199,7 @@ def main():
 
 
             print("Cost:", min_cost)
-            print("Visiting order:", visiting_order)
+            # print("Visiting order:", visiting_order)
             print("Path:", edge_list)
 
             graph.highlight_edges(edge_list)

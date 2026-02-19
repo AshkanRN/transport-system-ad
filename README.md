@@ -8,7 +8,9 @@ The system models universities and routes as a **graph** and provides intelligen
 and trip optimization.
 
 ---
-<img src="img/gr-ad.gif" height="700">
+<img src="img/gr-ad.gif" height="650" width="914">
+<img src="img/graph-ad-pic.png" width="455" height="300">
+<img src="img/graph-ad.png" width="455" height="300">
 
 ---
 ## Features

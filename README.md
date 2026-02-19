@@ -6,15 +6,11 @@ It was developed as a course project for **Algorithm Design**.
 
 The system models universities and routes as a **graph** and provides intelligent route planning, booking,
 and trip optimization.
----
 
+---
 <img src="img/gr-ad.gif">
 
-
-
-
 ---
-
 ## Features
 
 ### Phase 1: University Graph Construction
@@ -38,11 +34,11 @@ and trip optimization.
 ---
 
 ### Core Libraries:
-  - [NetworkX](https://networkx.org/) – for graph visualization
-  - [PyGraphviz](https://pygraphviz.github.io/) – to compute node coordinates for layout
-  - [Matplotlib](https://matplotlib.org/) – renders the final plots and heatmaps
-  - [NumPy](https://numpy.org/) – Numerical computations
-  
+- [NetworkX](https://networkx.org/) – for graph visualization
+- [PyGraphviz](https://pygraphviz.github.io/) – to compute node coordinates for layout
+- [Matplotlib](https://matplotlib.org/) – renders the final plots and heatmaps
+- [NumPy](https://numpy.org/) – Numerical computations
+
 All graph algorithms and data structures (MST, BFS, Dijkstra, Priority Queue, TSP with DP, etc.)
 are **implemented from scratch** using an **adjacency list** representation.
 
@@ -65,17 +61,17 @@ This project requires **Graphviz** to be installed before installing Python depe
   ```
 
 - **Windows:**
-  
-  - Download and install Graphviz from: https://graphviz.org/download/
-  
-   
+
+    - Download and install Graphviz from: https://graphviz.org/download/
+
+
 ## Getting Started
 - Clone the repository:
 ```bash
-  git clone https://github.com/AshkanRN/ad-project-gu.git
+  git clone https://github.com/AshkanRN/ad-project.git
 ```
 ```bash
-  cd ad-project-gu
+  cd ad-project
 ```
 
 - Install Python dependencies:

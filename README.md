@@ -33,14 +33,6 @@ and trip optimization.
 - Uses **Dynamic Programming (Bitmasking)** and Computes the best visiting order to minimize total cost.
 
 
----
-
-### Core Libraries:
-- [NetworkX](https://networkx.org/) – for graph visualization
-- [PyGraphviz](https://pygraphviz.github.io/) – to compute node coordinates for layout
-- [Matplotlib](https://matplotlib.org/) – renders the final plots and heatmaps
-- [NumPy](https://numpy.org/) – Numerical computations
-
 All graph algorithms and data structures (MST, BFS, Dijkstra, Priority Queue, TSP with DP, etc.)
 are **implemented from scratch** using an **adjacency list** representation.
 
